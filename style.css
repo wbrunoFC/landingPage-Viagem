@@ -1,0 +1,48 @@
+body {
+  --font-title: "Dosis", sans-serif;
+  --color-tile: #3f3d56;
+  --secondary-color-tile: #ee24ff;
+  --font-general-text: "Open Sans", sans-serif;
+  --color-general-text: #828282;
+
+  text-align: center;
+  margin: 64px auto 0px;
+  font-family: var(--font-general-text);
+
+  h1 {
+    font-family: var(--font-title);
+    font-weight: normal;
+    margin-top: 32px;
+    span {
+      color: var(--secondary-color-tile);
+      font-weight: bold;
+    }
+  }
+
+  p {
+    color: var(--color-general-text);
+    max-width: 540px;
+    margin: 16px auto 72px;
+    strong {
+      color: var(--color-tile);
+    }
+  }
+
+  footer {
+    hr {
+      border: 1px #eceff2 solid;
+      max-width: 391px;
+    }
+    #links {
+      margin-bottom: 40px;
+      a {
+        color: var(--color-tile);
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a + a {
+        margin-left: 42px;
+      }
+    }
+  }
+}
