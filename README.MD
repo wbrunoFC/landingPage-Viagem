@@ -1,4 +1,4 @@
-# Projeto 1 - DevLinks
+# Landing Page Viagem
 
 ![alt text](./assets/image.png)
 
